@@ -92,8 +92,6 @@ Realice los siguientes pasos **antes de comenzar los ejercicios**:
 
 **Objetivo:** Familiarizarse con la interfaz de Copilot antes de comenzar los ejercicios de prompting, identificando los elementos clave que se usarán durante la práctica.
 
-**Tiempo estimado:** 8 minutos
-
 #### Instrucciones
 
 1. Asegúrese de estar en [copilot.microsoft.com](https://copilot.microsoft.com) con sesión iniciada.
@@ -124,10 +122,6 @@ Realice los siguientes pasos **antes de comenzar los ejercicios**:
 
 6. Haga clic en **"Nueva conversación"** (o equivalente) para limpiar el historial antes del siguiente ejercicio.
 
-#### Resultado Esperado
-
-Copilot responde en español confirmando que entiende el mensaje. El participante identifica visualmente los componentes principales de la interfaz.
-
 #### Verificación
 
 - [ ] Copilot respondió en español.
@@ -139,8 +133,6 @@ Copilot responde en español confirmando que entiende el mensaje. El participant
 ### Paso 2: Comparación — Prompt Vago vs. Prompt Estructurado
 
 **Objetivo:** Observar directamente cómo la calidad y utilidad de la respuesta de Copilot cambia según el nivel de estructura del prompt. Este es el ejercicio comparativo central de la práctica.
-
-**Tiempo estimado:** 12 minutos
 
 #### Instrucciones
 
@@ -219,12 +211,6 @@ Copilot responde en español confirmando que entiende el mensaje. El participant
    | ¿Cumple con un límite de palabras?|             |            |
    ```
 
-#### Resultado Esperado
-
-- El prompt vago genera una respuesta genérica o solicita más información al usuario.
-- El prompt CTF genera un correo completo, con asunto, tono apropiado, datos específicos y listo para usar o adaptar con mínimas ediciones.
-- El participante documenta las diferencias observadas en su archivo de notas.
-
 #### Verificación
 
 - [ ] Se enviaron ambos prompts en conversaciones separadas.
@@ -237,8 +223,6 @@ Copilot responde en español confirmando que entiende el mensaje. El participant
 ### Paso 3: Aprendizaje de la Plantilla CTF
 
 **Objetivo:** Internalizar la plantilla reutilizable CTF y practicar su uso con un escenario guiado paso a paso, antes de crear prompts propios.
-
-**Tiempo estimado:** 10 minutos
 
 #### Instrucciones
 
@@ -318,10 +302,6 @@ Copilot responde en español confirmando que entiende el mensaje. El participant
    - ¿Incluye nombre de clínica y teléfono? SÍ / NO
    ```
 
-#### Resultado Esperado
-
-Copilot genera un mensaje de WhatsApp corto, amigable, con todos los elementos solicitados en el Formato. El participante puede verificar el cumplimiento de cada criterio de aceptación definido en el prompt.
-
 #### Verificación
 
 - [ ] La plantilla CTF fue guardada en el archivo de notas.
@@ -334,8 +314,6 @@ Copilot genera un mensaje de WhatsApp corto, amigable, con todos los elementos s
 ### Paso 4: Iteración y Refinamiento de Prompts
 
 **Objetivo:** Practicar la mejora iterativa de un prompt cuando la primera respuesta no cumple completamente los criterios esperados, desarrollando el criterio para identificar qué ajustar.
-
-**Tiempo estimado:** 10 minutos
 
 #### Instrucciones
 
@@ -399,10 +377,6 @@ Copilot genera un mensaje de WhatsApp corto, amigable, con todos los elementos s
 
 7. Lea las tres versiones y en su archivo de notas indique cuál preferiría usar y por qué.
 
-#### Resultado Esperado
-
-El participante observa que Copilot puede refinar su respuesta dentro de la misma conversación cuando recibe instrucciones específicas de mejora. Las tres versiones alternativas demuestran que el mismo prompt puede producir variaciones útiles según el tono solicitado.
-
 #### Verificación
 
 - [ ] Se envió al menos un mensaje de refinamiento en la misma conversación.
@@ -415,8 +389,6 @@ El participante observa que Copilot puede refinar su respuesta dentro de la mism
 ### Paso 5: Construcción de Prompts Propios — Cinco Escenarios Laborales
 
 **Objetivo:** Aplicar de forma autónoma la metodología CTF para construir cinco prompts originales en escenarios laborales variados, demostrando dominio del modelo.
-
-**Tiempo estimado:** 20 minutos (aproximadamente 4 minutos por prompt)
 
 #### Instrucciones
 
@@ -568,113 +540,6 @@ Respuesta de Copilot:
 ¿Podría usar esta respuesta (adaptada) en mi trabajo real? SÍ / NO
 ¿Qué cambiaría?
 ```
-
-#### Resultado Esperado
-
-El participante genera cinco prompts CTF originales y obtiene respuestas de Copilot para cada uno. Cada respuesta es evaluada contra los criterios de aceptación definidos en el propio prompt. El participante experimenta que la calidad de la respuesta es directamente proporcional a la claridad del prompt.
-
-#### Verificación
-
-- [ ] Se construyeron cinco prompts CTF completos (Contexto + Tarea + Formato en cada uno).
-- [ ] Cada prompt fue enviado a Copilot en una nueva conversación.
-- [ ] Se documentaron las respuestas y evaluaciones en el archivo de notas.
-- [ ] El Escenario 5.5 usa exclusivamente datos ficticios o genéricos.
-- [ ] Se identificó al menos una mejora posible en al menos tres de los prompts.
-
----
-
-## Validación y Pruebas
-
-Al finalizar todos los pasos, realice la siguiente verificación integral de su trabajo:
-
-### Lista de Verificación Final
-
-Revise su archivo `Lab01_MisPrompts.txt` y confirme que contiene:
-
-| # | Elemento a verificar                                                                 | ¿Completado? |
-|---|--------------------------------------------------------------------------------------|--------------|
-| 1 | Anotación del Paso 1 con observaciones de la interfaz de Copilot                    | ☐            |
-| 2 | Prompt vago del Paso 2A con respuesta copiada y observaciones                       | ☐            |
-| 3 | Prompt CTF del Paso 2B con respuesta copiada y observaciones                        | ☐            |
-| 4 | Tabla comparativa del Paso 2C completada                                             | ☐            |
-| 5 | Plantilla CTF guardada (sección "GUARDAR ESTA SECCIÓN")                              | ☐            |
-| 6 | Prompt guiado del Paso 3 con evaluación de criterios de aceptación                  | ☐            |
-| 7 | Registro de iteración del Paso 4 con lección aprendida                              | ☐            |
-| 8 | Cinco prompts originales del Paso 5 (uno por escenario) con respuestas y evaluación | ☐            |
-| 9 | Al menos un prompt libre (Escenario 5.5) con datos ficticios                        | ☐            |
-
-### Prueba de Calidad de Prompts
-
-Seleccione **el mejor prompt** que creó durante la práctica (el que produjo la respuesta más útil) y responda las siguientes preguntas en su archivo de notas:
-
-```
-=== VALIDACIÓN FINAL: MI MEJOR PROMPT ===
-
-El prompt que selecciono como mi mejor trabajo:
-[pegue el prompt completo]
-
-¿Por qué lo considero el mejor?
-[explique en 3-5 líneas]
-
-¿Qué elemento CTF fue más difícil de definir para mí: Contexto, Tarea o Formato?
-[responda y explique brevemente]
-
-¿Cómo podría mejorar aún más este prompt?
-[proponga al menos una mejora concreta]
-```
-
----
-
-## Resolución de Problemas
-
-### Problema 1: Copilot responde en inglés aunque el prompt está en español
-
-**Síntoma:** El participante escribe su prompt en español pero Copilot responde en inglés o en una mezcla de idiomas.
-
-**Causa:** Copilot puede detectar el idioma del sistema operativo o del navegador y priorizar ese idioma, especialmente si la cuenta Microsoft está configurada en inglés. También puede ocurrir cuando el prompt mezcla términos técnicos en inglés.
-
-**Solución:**
-```
-Opción 1 — Instrucción explícita en el prompt:
-Agregue al final de la sección Formato la instrucción:
-"Responde ÚNICAMENTE en español. No uses inglés en ninguna parte de tu respuesta."
-
-Opción 2 — Mensaje de corrección en la misma conversación:
-Envíe: "Por favor, traduce tu respuesta anterior al español y responde
-siempre en español de ahora en adelante en esta conversación."
-
-Opción 3 — Configuración del navegador:
-En Microsoft Edge: Configuración > Idiomas > Agregar español como idioma preferido.
-Reinicie el navegador y vuelva a acceder a Copilot.
-```
-
----
-
-### Problema 2: Copilot genera respuestas muy diferentes al mismo prompt en dos intentos distintos
-
-**Síntoma:** El participante envía el mismo prompt en dos conversaciones separadas y obtiene respuestas notablemente diferentes en estructura, longitud o contenido, lo que genera confusión sobre si el prompt está bien construido.
-
-**Causa:** Este comportamiento es **normal y esperado** en los modelos de lenguaje. Los modelos de IA generativa incluyen un parámetro de aleatoriedad (llamado "temperatura") que produce variación natural en las respuestas. No indica que el prompt esté mal construido.
-
-**Solución:**
-```
-1. Comprenda que la variabilidad es una característica, no un error.
-   El objetivo no es obtener una respuesta idéntica, sino una respuesta
-   de alta calidad que cumpla los criterios del prompt.
-
-2. Para reducir la variabilidad, agregue criterios de aceptación más
-   específicos en la sección Formato. Ejemplo:
-   En lugar de: "respuesta estructurada"
-   Use: "exactamente 5 viñetas, cada una de máximo 20 palabras,
-         comenzando con un verbo en infinitivo"
-
-3. Si dos respuestas son igualmente válidas, use ambas como punto de
-   partida y combine los mejores elementos de cada una.
-
-4. Si una respuesta es claramente inferior, use la iteración (Paso 4)
-   para mejorarla en la misma conversación en lugar de reiniciar.
-```
-
 ---
 
 ## Limpieza del Entorno
@@ -736,12 +601,6 @@ En esta práctica introductoria usted:
 | **Iteración**             | Proceso de mejorar un prompt o una respuesta mediante instrucciones de refinamiento.|
 | **Variabilidad normal**   | Las respuestas de IA varían entre intentos; esto es esperado y manejable.           |
 
-### Conexión con las Próximas Prácticas
-
-El modelo CTF que aprendió hoy es el **fundamento de todo el curso**. En las prácticas siguientes, aplicará este mismo modelo para generar documentos más complejos:
-- **Práctica 2:** Reportes, actas, cronogramas y correos contractuales.
-- **Práctica 3:** Automatización de tareas administrativas recurrentes.
-- **Práctica 4:** Documentación profesional estandarizada con criterios de validación.
 
 ### Recursos de Consulta Adicionales
 
@@ -752,6 +611,16 @@ El modelo CTF que aprendió hoy es el **fundamento de todo el curso**. En las pr
 | PromptingGuide.ai — Técnicas y patrones          | https://www.promptingguide.ai/                                                       |
 | Nielsen Norman Group — Prompting para todos      | https://www.nngroup.com/articles/prompt-engineering/                                 |
 | Centro de ayuda de Microsoft Copilot             | https://support.microsoft.com/es-es/copilot                                          |
+
+### Resultado Esperado
+
+- [ ] Dominio del Modelo CTF: El participante construye de forma autónoma prompts estructurados divididos claramente en Contexto (rol y situación), Tarea (acción con verbo único) y Formato (estructura, extensión y tono). 
+
+- [ ] Contraste de Calidad: Identificación visual y crítica de cómo un prompt vago genera respuestas genéricas versus cómo el modelo CTF produce un entregable profesional y accionable al primer intento. 
+
+- [ ] Habilidad de Refinamiento: Capacidad de iterar y guiar a la IA dentro de la misma conversación para corregir desviaciones de formato, ajustar el tono o generar versiones alternativas. 
+
+- [ ] Bitácora de Trabajo: Creación de un archivo de notas que valida la ejecución de 5 escenarios laborales originales con sus respectivos criterios de aceptación. 
 
 ---
 
