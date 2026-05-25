@@ -122,12 +122,6 @@ Realice los siguientes pasos **antes de comenzar los ejercicios**:
 
 6. Haga clic en **"Nueva conversación"** (o equivalente) para limpiar el historial antes del siguiente ejercicio.
 
-#### Verificación
-
-- [ ] Copilot respondió en español.
-- [ ] Se anotó la observación en `Lab01_MisPrompts.txt`.
-- [ ] El historial fue reiniciado con "Nueva conversación".
-
 ---
 
 ### Paso 2: Comparación — Prompt Vago vs. Prompt Estructurado
@@ -210,13 +204,6 @@ Realice los siguientes pasos **antes de comenzar los ejercicios**:
    | ¿Se puede usar directamente?      |             |            |
    | ¿Cumple con un límite de palabras?|             |            |
    ```
-
-#### Verificación
-
-- [ ] Se enviaron ambos prompts en conversaciones separadas.
-- [ ] Ambas respuestas fueron copiadas al archivo de notas.
-- [ ] La tabla comparativa fue completada con observaciones propias.
-- [ ] Se inició una nueva conversación antes del siguiente paso.
 
 ---
 
@@ -302,13 +289,6 @@ Realice los siguientes pasos **antes de comenzar los ejercicios**:
    - ¿Incluye nombre de clínica y teléfono? SÍ / NO
    ```
 
-#### Verificación
-
-- [ ] La plantilla CTF fue guardada en el archivo de notas.
-- [ ] El prompt guiado fue construido completando las tres secciones.
-- [ ] La respuesta fue evaluada contra los criterios de aceptación definidos.
-- [ ] Se documentaron los resultados en el archivo de notas.
-
 ---
 
 ### Paso 4: Iteración y Refinamiento de Prompts
@@ -376,13 +356,6 @@ Realice los siguientes pasos **antes de comenzar los ejercicios**:
    ```
 
 7. Lea las tres versiones y en su archivo de notas indique cuál preferiría usar y por qué.
-
-#### Verificación
-
-- [ ] Se envió al menos un mensaje de refinamiento en la misma conversación.
-- [ ] Se compararon la respuesta original y la refinada.
-- [ ] Se solicitaron tres versiones alternativas.
-- [ ] Se documentó la lección aprendida sobre iteración en el archivo de notas.
 
 ---
 
@@ -614,13 +587,13 @@ En esta práctica introductoria usted:
 
 ### Resultado Esperado
 
-- [ ] Dominio del Modelo CTF: El participante construye de forma autónoma prompts estructurados divididos claramente en Contexto (rol y situación), Tarea (acción con verbo único) y Formato (estructura, extensión y tono). 
+- Dominio del Modelo CTF: El participante construye de forma autónoma prompts estructurados divididos claramente en Contexto (rol y situación), Tarea (acción con verbo único) y Formato (estructura, extensión y tono). 
 
-- [ ] Contraste de Calidad: Identificación visual y crítica de cómo un prompt vago genera respuestas genéricas versus cómo el modelo CTF produce un entregable profesional y accionable al primer intento. 
+- Contraste de Calidad: Identificación visual y crítica de cómo un prompt vago genera respuestas genéricas versus cómo el modelo CTF produce un entregable profesional y accionable al primer intento. 
 
-- [ ] Habilidad de Refinamiento: Capacidad de iterar y guiar a la IA dentro de la misma conversación para corregir desviaciones de formato, ajustar el tono o generar versiones alternativas. 
+- Habilidad de Refinamiento: Capacidad de iterar y guiar a la IA dentro de la misma conversación para corregir desviaciones de formato, ajustar el tono o generar versiones alternativas. 
 
-- [ ] Bitácora de Trabajo: Creación de un archivo de notas que valida la ejecución de 5 escenarios laborales originales con sus respectivos criterios de aceptación. 
+- Bitácora de Trabajo: Creación de un archivo de notas que valida la ejecución de 5 escenarios laborales originales con sus respectivos criterios de aceptación. 
 
 ---
 
