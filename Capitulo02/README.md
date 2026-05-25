@@ -650,6 +650,16 @@ En esta práctica de 180 minutos construiste un **portafolio documental completo
 
 ---
 
+### Resultado Esperado
 
+- Portafolio Documental Consolidado: El participante genera un expediente con 6 artefactos de gestión alineados al escenario de "Distribuidora Andina S.A.", asegurando la consistencia de nombres, roles, fechas y del presupuesto base de USD 85.000.
+
+- Dominio del Prompting en Cadena e Iterativo: Capacidad para estructurar instrucciones complejas y refinar los resultados de Copilot dentro de una misma conversación .
+
+- Desarrollo de Criterio Crítico: El estudiante aplica listas de comprobación (checklists) para identificar y corregir manualmente "alucinaciones" de la IA, variaciones de nombres o inconsistencias cronológicas antes de una firma ejecutiva.
+
+- Trazabilidad y Gobierno: Incorporación obligatoria de notas de descargo (disclaimers) que especifican que el contenido fue asistido por IA y requiere validación humana experta.
+
+---
 
 > 🏁 **¡Laboratorio completado!** Has generado seis artefactos profesionales de gestión de proyectos en una sola sesión de trabajo. El portafolio que construiste hoy representa el tipo de documentación que normalmente tomaría varios días producir. Con práctica y refinamiento de tus prompts, este proceso seguirá mejorando en calidad y velocidad.
