@@ -4,7 +4,7 @@
 
 | Campo            | Detalle                                      |
 |------------------|----------------------------------------------|
-| **Duración**     | 60 minutos                                   |
+| **Duración**     | 90 minutos                                   |
 | **Complejidad**  | Fácil                                        |
 | **Nivel Bloom**  | Crear                                        |
 | **Modalidad**    | Individual / Guiada por instructor           |
@@ -47,32 +47,12 @@ Al completar esta práctica, el participante será capaz de:
 | Cuenta Microsoft                     | Personal o corporativa activa (para iniciar sesión en Copilot)            |
 | Acceso a Internet                    | Conexión estable, mínimo 10 Mbps de descarga                              |
 | Microsoft Copilot                    | Acceso verificado en [copilot.microsoft.com](https://copilot.microsoft.com) |
-| Alternativa (si Copilot no está disponible) | ChatGPT en [chat.openai.com](https://chat.openai.com)             |
 
 > ⚠️ **Nota de seguridad:** Durante toda la práctica, utilice **únicamente datos ficticios o anonimizados**. No ingrese nombres de clientes reales, contratos vigentes, información financiera ni datos confidenciales de su organización en Copilot.
 
 ---
 
 ## Entorno de Laboratorio
-
-### Hardware Recomendado
-
-| Componente       | Mínimo requerido                          | Recomendado                        |
-|------------------|-------------------------------------------|------------------------------------|
-| Procesador       | 4 núcleos (Intel Core i5 / AMD Ryzen 5)   | Intel Core i7 / AMD Ryzen 7        |
-| Memoria RAM      | 8 GB                                      | 16 GB                              |
-| Almacenamiento   | 2 GB disponibles                          | 5 GB disponibles                   |
-| Monitor          | 1280×768 píxeles                          | 1920×1080 píxeles                  |
-| Entrada          | Teclado y ratón funcionales               | —                                  |
-
-### Software Requerido
-
-| Software                        | Versión mínima                    | Propósito en la práctica                  |
-|---------------------------------|-----------------------------------|-------------------------------------------|
-| Microsoft Edge o Google Chrome  | Versión 120 o superior            | Acceder a Copilot                         |
-| Microsoft Copilot (web)         | Versión web actual                | Herramienta principal de IA               |
-| Bloc de Notas / Notepad         | Cualquier versión del SO          | Preparar y guardar prompts                |
-| Microsoft Word (opcional)       | Microsoft 365 / Word 2019         | Guardar resultados finales                |
 
 ### Configuración Inicial del Entorno
 
@@ -100,14 +80,6 @@ Realice los siguientes pasos **antes de comenzar los ejercicios**:
 3. Guárdelo como: Lab01_MisPrompts.txt
    (Ruta sugerida: Escritorio o carpeta Documentos/Lab01)
 4. Este archivo será su "cuaderno de trabajo" durante toda la práctica.
-```
-
-**Paso D — Verificar alternativa (solo si Copilot no está disponible):**
-```
-1. Navegue a: https://chat.openai.com
-2. Inicie sesión o cree una cuenta gratuita.
-3. Confirme que el chat responde en español.
-   Nota: Todos los ejercicios de esta práctica funcionan igualmente en ChatGPT.
 ```
 
 ---
