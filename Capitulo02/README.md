@@ -7,7 +7,7 @@
 | **Duración estimada** | 90 minutos |
 | **Complejidad** | Media |
 | **Nivel Bloom** | Crear |
-| **Modalidad** | Práctica guiada individual con revisión en plenaria |
+| **Modalidad** | Individual |
 | **Versión del documento** | 1.0 |
 
 ---
@@ -61,7 +61,6 @@ Antes de comenzar los ejercicios, completa los siguientes pasos de configuració
 1. Crea una carpeta en tu escritorio llamada `Lab_02_Documentos_Proyecto`.
 2. Abre el **Bloc de Notas** y guarda un archivo vacío como `prompts_lab02.txt` dentro de esa carpeta. Aquí copiarás todos los prompts antes de ejecutarlos.
 3. Abre **Microsoft Word** (o Word Online) y crea un documento en blanco llamado `Portafolio_Distribuidora_Andina.docx` en la misma carpeta.
-
 
 > **Escenario ficticio — Distribuidora Andina S.A.**
 >
@@ -586,34 +585,6 @@ pero colaborativo], manteniendo todos los datos y referencias contractuales sin 
 5. Guarda el documento final.
 
 **Salida esperada:** Un documento Word de 15–25 páginas con portada, 6 secciones bien estructuradas, inconsistencias corregidas y notas de validación pendiente en cada sección.
-
----
-
-## Limpieza del Entorno
-
-Al finalizar el laboratorio, realiza los siguientes pasos de limpieza:
-
-1. **Guardar trabajo final:**
-   - Confirma que `Portafolio_Distribuidora_Andina.docx` está guardado en `Lab_02_Documentos_Proyecto`.
-   - Confirma que `prompts_lab02.txt` contiene todos los prompts utilizados (para referencia futura).
-
-2. **Cerrar conversaciones de Copilot:**
-   - En Copilot, cierra o limpia el historial de conversaciones si tu organización tiene políticas de privacidad que lo requieran.
-   - Cierra las pestañas del navegador con Copilot abierto.
-
-3. **Archivar los archivos de práctica:**
-   - Comprime la carpeta `Lab_02_Documentos_Proyecto` en un archivo ZIP: clic derecho → "Enviar a" → "Carpeta comprimida (zip)".
-   - Nombra el ZIP: `Lab02_[TuNombre]_[FechaActual].zip`.
-   - Guarda el ZIP en la ubicación indicada por el instructor (OneDrive, carpeta compartida, o correo electrónico).
-
-4. **Verificar que no se guardó información sensible:**
-   - Abre el documento Word y confirma que no contiene datos reales de tu organización.
-   - Abre el archivo `prompts_lab02.txt` y verifica lo mismo.
-
-5. **Cerrar aplicaciones:**
-   - Cierra Microsoft Word.
-   - Cierra el Bloc de Notas.
-   - Cierra el navegador o las pestañas relevantes.
 
 ---
 
