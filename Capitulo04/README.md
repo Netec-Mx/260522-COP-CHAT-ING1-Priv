@@ -1,4 +1,4 @@
-# Práctica 4. Creación de borradores para reportes de turno, listas de verificación de seguridad y formatos de inspección simple.
+# Creación de borradores para reportes de turno, listas de verificación de seguridad y formatos de inspección simple.
 
 ## Metadatos
 
