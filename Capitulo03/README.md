@@ -53,25 +53,6 @@ Al completar esta práctica, el participante será capaz de:
 
 ## 5. Entorno de Laboratorio
 
-### Hardware Requerido
-
-| Componente | Mínimo | Recomendado |
-|------------|--------|-------------|
-| Procesador | Intel Core i5 / AMD Ryzen 5 (4 núcleos) | Intel Core i7 / AMD Ryzen 7 |
-| RAM | 8 GB | 16 GB |
-| Almacenamiento libre | 2 GB | 5 GB |
-| Pantalla | 1280×768 px | 1920×1080 px |
-| Conexión a Internet | 10 Mbps descarga | 25 Mbps descarga |
-
-### Software Requerido
-
-| Software | Versión Mínima | Uso en este Lab |
-|----------|---------------|-----------------|
-| Microsoft Edge o Google Chrome | v120 o superior | Acceder a Copilot |
-| Microsoft Copilot (web) | Versión actual | Herramienta principal de IA |
-| Microsoft Word | Microsoft 365 v2308 / Word 2019 | Guardar y organizar resultados |
-| Bloc de Notas (Notepad) | Cualquier versión | Preparar textos de entrada |
-
 ### Configuración Inicial del Entorno
 
 Ejecute los siguientes pasos de preparación **antes de iniciar los bloques de práctica**. Tiempo estimado: 5 minutos.
@@ -114,17 +95,7 @@ Ejecute los siguientes pasos de preparación **antes de iniciar los bloques de p
 
 ---
 
-## 6. Procedimiento Paso a Paso
-
-> 📋 **Estructura de la práctica:**
-> - **Bloque 1** (Pasos 1–4): Priorización de pendientes — 25 minutos
-> - **Bloque 2** (Pasos 5–8): Estructuración de tarea técnica — 30 minutos
-> - **Bloque 3** (Pasos 9–12): Extracción de puntos clave — 25 minutos
-> - **Cierre** (Paso 13): Reflexión y consolidación — 10 minutos
-
----
-
-### BLOQUE 1: Priorización de Pendientes (25 minutos)
+### BLOQUE 1: Priorización de Pendientes 
 
 ---
 
@@ -163,11 +134,6 @@ Lista de pendientes — Semana del [fecha actual]:
 4. Guarde el archivo.
 
 **Resultado Esperado:** Una lista de 8–15 pendientes, anonimizada, con cada ítem redactado como acción concreta, guardada en su archivo de texto.
-
-**Verificación:**
-- [ ] La lista tiene al menos 8 ítems.
-- [ ] Ningún ítem contiene datos reales confidenciales.
-- [ ] Cada ítem comienza con un verbo de acción (Redactar, Actualizar, Preparar, etc.).
 
 ---
 
@@ -217,8 +183,6 @@ Pendientes:
 
 8. Una vez recibida la respuesta, copie el resultado completo y péguelo en su documento Word, en la sección **"Bloque 1: Priorización de Pendientes"**.
 
-**Resultado Esperado:**
-
 Copilot debe generar una tabla similar a esta (los valores variarán):
 
 | N° | Tarea | Categoría MoSCoW | Puntaje (0-100) | Justificación |
@@ -229,12 +193,6 @@ Copilot debe generar una tabla similar a esta (los valores variarán):
 | ... | ... | ... | ... | ... |
 
 Seguido de una sección "Top 3 para hoy" con bloques de 30 minutos.
-
-**Verificación:**
-- [ ] La tabla incluye todas las columnas solicitadas (N°, Tarea, MoSCoW, Puntaje, Justificación).
-- [ ] La tabla está ordenada de mayor a menor puntaje.
-- [ ] La sección "Top 3 para hoy" incluye tres bloques de 30 minutos con criterios de éxito.
-- [ ] El resultado fue copiado al documento Word.
 
 ---
 
@@ -282,26 +240,6 @@ Pendientes:
    - ¿Qué marco le resultó más útil para SU contexto de trabajo? ¿Por qué?
    - ¿Hubo alguna tarea que Copilot clasificó diferente a como usted la habría clasificado?
 
-**Resultado Esperado:**
-
-Una clasificación en cuatro cuadrantes con justificaciones, por ejemplo:
-
-**Cuadrante 1 — Hacer ahora (Urgente + Importante):**
-- Investigar alerta intermitente en servidor de BD: *Riesgo activo de falla que impacta directamente la operación.*
-- Dar de baja cuentas de empleados salientes: *Brecha de seguridad activa que no puede esperar.*
-
-**Cuadrante 2 — Planificar (No urgente + Importante):**
-- Documentar procedimientos de respaldo: *Tarea estratégica sin fecha límite inmediata pero con alto valor a largo plazo.*
-- ...
-
-Seguido de la sección comparativa.
-
-**Verificación:**
-- [ ] Los cuatro cuadrantes están presentes con al menos un ítem cada uno.
-- [ ] Cada ítem tiene una justificación de una frase.
-- [ ] La sección comparativa MoSCoW vs. Eisenhower está incluida.
-- [ ] El participante escribió su análisis personal en el documento Word.
-
 ---
 
 #### Paso 4 — Refinar con Prompt de Seguimiento
@@ -329,21 +267,6 @@ Máximo 3 líneas por ficha.
 
 4. **Reflexión de cierre del Bloque 1 (1 minuto):** En su documento Word, escriba una oración respondiendo: *¿Qué elemento del prompt CTF tuvo mayor impacto en la calidad del resultado en este bloque?*
 
-**Resultado Esperado:**
-
-Mini-fichas como:
-```
-📌 Investigar alerta intermitente en servidor de BD
-   Tiempo estimado: 2–3 horas (diagnóstico inicial)
-   Apoyo: DBA o ingeniero de sistemas senior
-   Consecuencia si no se atiende: Posible caída de base de datos en horario pico
-```
-
-**Verificación:**
-- [ ] Copilot generó mini-fichas sin necesidad de repetir la lista completa.
-- [ ] Cada ficha tiene los tres campos solicitados (tiempo, apoyo, consecuencia).
-- [ ] El participante escribió su reflexión de cierre del bloque.
-
 ---
 
 ### BLOQUE 2: Estructuración de una Tarea Técnica (30 minutos)
@@ -356,18 +279,11 @@ Mini-fichas como:
 
 **Instrucciones:**
 
-1. Elija UNA de las siguientes opciones para su tarea técnica:
-
-   **Opción A (recomendada si trabaja en TI):** Use la tarea técnica de ejemplo del curso:
-   > *Configurar Nginx como proxy inverso con TLS en Ubuntu 22.04 usando certificados Let's Encrypt para una aplicación Node.js.*
-
-   **Opción B (recomendada para otras áreas):** Defina una tarea técnica real de su área de trabajo. Ejemplos por sector:
+1. Elija UNA de las siguientes opciones para su tarea técnica real de su área de trabajo. Ejemplos por sector:
    - **Mantenimiento industrial:** *Realizar mantenimiento preventivo mensual a compresor de aire de 50 HP.*
    - **Calidad:** *Ejecutar auditoría interna de proceso de soldadura según norma ISO 3834.*
    - **Administración:** *Cerrar el proceso de nómina quincenal y generar reportes de dispersión.*
    - **Logística:** *Ejecutar inventario físico cíclico de almacén de materias primas.*
-
-   **Opción C:** Invente una tarea técnica plausible para su sector si no quiere usar datos reales.
 
 2. En Bloc de Notas, escriba su tarea técnica seleccionada en una sola oración clara.
 
@@ -375,13 +291,6 @@ Mini-fichas como:
    - **Sistema/equipo involucrado:** (ej. "Ubuntu 22.04", "Compresor marca X modelo Y")
    - **Audiencia del documento resultante:** (ej. "Técnico junior con 1 año de experiencia")
    - **Restricción de tiempo:** (ej. "La tarea debe completarse en un turno de 8 horas")
-
-**Resultado Esperado:** Una definición de tarea técnica clara con sistema, audiencia y restricción de tiempo documentados en Bloc de Notas.
-
-**Verificación:**
-- [ ] La tarea está redactada como una acción técnica concreta.
-- [ ] Se definió el sistema/equipo, la audiencia y la restricción de tiempo.
-- [ ] No contiene información confidencial real.
 
 ---
 
@@ -436,60 +345,6 @@ Formato:
 
 6. Copie el resultado completo al documento Word, sección **"Bloque 2: Guía Técnica Estructurada"**.
 
-**Resultado Esperado (ejemplo para Nginx/TLS):**
-
-```
-⚠️ PREGUNTAS ACLARATORIAS (si aplica):
-1. ¿El servidor tiene acceso público a Internet (necesario para Let's Encrypt)?
-2. ¿La aplicación Node.js ya está corriendo en un puerto específico?
-
----
-
-1. PRE-REQUISITOS
-   - Ubuntu 22.04 instalado y actualizado
-   - Acceso SSH con privilegios sudo
-   - Dominio apuntando al IP del servidor (registro A en DNS)
-   - Puerto 80 y 443 abiertos en firewall
-   ...
-
-2. PASOS DETALLADOS
-   Paso 1: Actualizar el sistema
-   QUÉ: Actualizar índice de paquetes y dependencias
-   CÓMO: 
-   sudo apt update && sudo apt upgrade -y
-   POR QUÉ: Evitar conflictos con versiones desactualizadas durante la instalación.
-   ...
-
-3. PUNTOS DE CONTROL
-   ✔ Después del Paso 3 (instalación de Nginx):
-   sudo systemctl status nginx
-   → Esperado: "active (running)"
-   ...
-
-4. RIESGOS Y MITIGACIONES
-   | Riesgo | Probabilidad | Impacto | Mitigación |
-   |--------|-------------|---------|------------|
-   | DNS no propagado | Media | Alto | Verificar propagación con dig antes de solicitar certificado |
-   ...
-
-5. CRITERIOS DE ACEPTACIÓN (Go/No-Go)
-   [ ] Nginx responde en https://tudominio.com sin advertencia de certificado
-   [ ] Redirección automática de HTTP a HTTPS funciona
-   ...
-
-6. ESTIMACIÓN DE ESFUERZO
-   Bloque 1 (0–30 min): Preparación del servidor y verificación de pre-requisitos
-   Bloque 2 (30–60 min): Instalación de Nginx y configuración del virtual host
-   ...
-```
-
-**Verificación:**
-- [ ] La respuesta incluye las 6 secciones solicitadas.
-- [ ] Existe al menos una tabla de riesgos con las 4 columnas.
-- [ ] El checklist Go/No-Go tiene al menos 4 ítems verificables.
-- [ ] Los comandos o instrucciones técnicas están en formato destacado.
-- [ ] El resultado fue copiado al documento Word.
-
 ---
 
 #### Paso 7 — Adaptar la Guía para una Audiencia Diferente
@@ -520,25 +375,6 @@ Lenguaje directo y operativo.
 
 4. **Reflexión (1 minuto):** En el documento Word, responda: *¿En qué situación real de su trabajo usaría cada una de las tres versiones (completa, gerencial, tarjeta de bolsillo)?*
 
-**Resultado Esperado:**
-
-**Versión A — Resumen para gerencia:**
-> *Se realizará la configuración del servidor web para habilitar comunicaciones seguras (HTTPS) en nuestra aplicación interna. Esta tarea es necesaria para cumplir con los requisitos de seguridad de la auditoría del próximo mes. El proceso tomará aproximadamente 3 horas y requiere una ventana de mantenimiento de 30 minutos en horario de baja actividad. El principal riesgo es una interrupción temporal del servicio, mitigable con pruebas previas. Se requiere aprobación del dominio y acceso al panel de DNS...*
-
-**Versión B — Tarjeta de bolsillo:**
-```
-CHECKLIST NGINX + TLS
-[ ] Verificar DNS propagado (dig tudominio.com)
-[ ] Instalar Nginx: sudo apt install nginx -y
-[ ] Verificar Nginx activo: sudo systemctl status nginx
-[ ] Instalar Certbot...
-```
-
-**Verificación:**
-- [ ] La Versión A tiene máximo 150 palabras y no contiene tecnicismos.
-- [ ] La Versión B tiene formato checklist con máximo 20 ítems.
-- [ ] El participante escribió su reflexión sobre el uso de cada versión.
-
 ---
 
 #### Paso 8 — Solicitar Ramas Condicionales para Variantes del Procedimiento
@@ -568,16 +404,9 @@ Paso X: Instalar gestor de paquetes
 
 > 💡 **Nota para participantes de áreas no-TI:** Si su tarea no tiene variantes de sistema operativo, adapte la pregunta: *"Identifica los 3 pasos donde el procedimiento varía según el modelo del equipo / turno de trabajo / nivel de experiencia del técnico."*
 
-**Resultado Esperado:** Tres pasos con ramas condicionales claramente formateadas mostrando instrucciones específicas para cada variante.
-
-**Verificación:**
-- [ ] Se identificaron al menos 3 pasos con variantes.
-- [ ] Cada variante tiene su instrucción específica en formato condicional.
-- [ ] El resultado fue copiado al documento Word.
-
 ---
 
-### BLOQUE 3: Extracción de Puntos Clave de un Manual Extenso (25 minutos)
+### BLOQUE 3: Extracción de Puntos Clave de un Manual Extenso
 
 ---
 
@@ -698,13 +527,6 @@ auditorías deben cerrarse en un plazo máximo de 30 días hábiles.
 ```
 
 3. Confirme que el texto está en su archivo de Bloc de Notas, listo para ser copiado.
-
-**Resultado Esperado:** Texto fuente de 800–1200 palabras disponible en Bloc de Notas, anonimizado y listo para usar.
-
-**Verificación:**
-- [ ] El texto tiene entre 800 y 1200 palabras aproximadamente.
-- [ ] No contiene datos reales confidenciales.
-- [ ] El texto está guardado en Bloc de Notas.
 
 ---
 
