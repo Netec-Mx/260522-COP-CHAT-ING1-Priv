@@ -28,7 +28,7 @@ Este curso práctico permite a profesionales de proyectos, mantenimiento y energ
 
 ### Capítulo 4
 
-- [1. Práctica 4. Creación de borradores para reportes de turno, listas de verificación de seguridad y formatos de inspección simple.](Capitulo04/README.md#1-práctica-4-creación-de-borradores-para-reportes-de-turno-listas-de-verificación-de-seguridad-y-formatos-de-inspección-simple)
+- [Creación de borradores para reportes de turno, listas de verificación de seguridad y formatos de inspección simple.](Capitulo04/README.md#1-práctica-4-creación-de-borradores-para-reportes-de-turno-listas-de-verificación-de-seguridad-y-formatos-de-inspección-simple)
   - Descripción: Actividad práctica guiada basada estrictamente en el contenido del módulo.
   - Duración estimada: 90 min
 
