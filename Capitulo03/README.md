@@ -7,7 +7,7 @@
 | **Duración**     | 90 minutos                                                              |
 | **Complejidad**  | Media                                                                   |
 | **Nivel Bloom**  | Crear                                                                   |
-| **Modalidad**    | Individual / Guiada por instructor                                      |
+| **Modalidad**    | Individual                                                              |
 | **Versión**      | 1.0                                                                     |
 
 ---
@@ -37,15 +37,6 @@ Al completar esta práctica, el participante será capaz de:
 | Requisito | Descripción |
 |-----------|-------------|
 | Lab 01-00-01 completado | El participante conoce la interfaz de Copilot y el patrón básico CTF |
-| Concepto de priorización | Familiaridad básica con términos como urgencia, impacto y esfuerzo |
-| Lectura previa | Haber revisado el material de la Lección 3.1 de este curso |
-
-### Materiales que el Participante Debe Traer
-
-| Material | Descripción | Alternativa si no se tiene |
-|----------|-------------|---------------------------|
-| Lista de pendientes | Mínimo 8 ítems reales o simulados de trabajo (anonimizados) | Usar la lista de ejemplo proporcionada en el **Paso 1** de este lab |
-| Texto técnico extenso | Fragmento de manual, procedimiento o normativa (800–1200 palabras) de su empresa (anonimizado) | Usar el **Texto de Muestra del Instructor** incluido en el **Paso 3** de este lab |
 
 > ⚠️ **IMPORTANTE — Datos sensibles:** No ingrese nombres reales de clientes, contratos vigentes ni información financiera confidencial en Copilot. Use siempre datos ficticios o anonimizados.
 
@@ -90,9 +81,6 @@ Ejecute los siguientes pasos de preparación **antes de iniciar los bloques de p
    - Bloque 2: Guía Técnica Estructurada
    - Bloque 3: Extracción de Puntos Clave
 ```
-
-> 💡 **Alternativa de respaldo:** Si Copilot no está disponible por restricciones corporativas, usar ChatGPT en https://chat.openai.com con los mismos prompts. Los resultados serán equivalentes para los propósitos de esta práctica.
-
 ---
 
 ### BLOQUE 1: Priorización de Pendientes 
@@ -107,12 +95,7 @@ Ejecute los siguientes pasos de preparación **antes de iniciar los bloques de p
 
 1. Abra su archivo `Lab03_Prompts_[TuNombre].txt` en Bloc de Notas.
 
-2. Si trajo su propia lista de pendientes, escríbala en el archivo, asegurándose de:
-   - Tener entre 8 y 15 ítems.
-   - Redactar cada ítem como una acción concreta (verbo + objeto).
-   - Eliminar cualquier nombre real de persona o empresa (use "Proveedor A", "Cliente X", "Sistema Y").
-
-3. Si no trajo lista propia, copie la siguiente lista de ejemplo en su archivo:
+2. Copie la siguiente lista de ejemplo en su archivo:
 
 ```text
 Lista de pendientes — Semana del [fecha actual]:
@@ -131,9 +114,9 @@ Lista de pendientes — Semana del [fecha actual]:
 12. Coordinar con RRHH la baja de cuentas de 2 empleados que salieron la semana pasada.
 ```
 
-4. Guarde el archivo.
+3. Guarde el archivo.
 
-**Resultado Esperado:** Una lista de 8–15 pendientes, anonimizada, con cada ítem redactado como acción concreta, guardada en su archivo de texto.
+**Salida Esperada:** Una lista de 8–15 pendientes, anonimizada, con cada ítem redactado como acción concreta, guardada en su archivo de texto.
 
 ---
 
@@ -181,7 +164,7 @@ Pendientes:
 
 7. Espere la respuesta completa de Copilot (puede tomar 15–30 segundos).
 
-8. Una vez recibida la respuesta, copie el resultado completo y péguelo en su documento Word, en la sección **"Bloque 1: Priorización de Pendientes"**.
+8. Una vez recibida la respuesta, copie el resultado completo y péguelo en su documento Word.
 
 Copilot debe generar una tabla similar a esta (los valores variarán):
 
@@ -234,11 +217,7 @@ Pendientes:
 
 3. Envíe el prompt a Copilot.
 
-4. Copie el resultado al documento Word, en la misma sección **"Bloque 1"**, debajo del resultado anterior.
-
-5. **Análisis personal (2 minutos):** Lea ambos resultados (MoSCoW y Eisenhower) y responda en su documento Word:
-   - ¿Qué marco le resultó más útil para SU contexto de trabajo? ¿Por qué?
-   - ¿Hubo alguna tarea que Copilot clasificó diferente a como usted la habría clasificado?
+4. Copie el resultado al documento Word, debajo del resultado anterior.
 
 ---
 
@@ -265,11 +244,9 @@ Máximo 3 líneas por ficha.
 
 3. Copie el resultado al documento Word.
 
-4. **Reflexión de cierre del Bloque 1 (1 minuto):** En su documento Word, escriba una oración respondiendo: *¿Qué elemento del prompt CTF tuvo mayor impacto en la calidad del resultado en este bloque?*
-
 ---
 
-### BLOQUE 2: Estructuración de una Tarea Técnica (30 minutos)
+### BLOQUE 2: Estructuración de una Tarea Técnica 
 
 ---
 
@@ -343,7 +320,7 @@ Formato:
 
 5. Si Copilot formula preguntas aclaratorias al inicio, respóndalas en el mismo chat antes de continuar.
 
-6. Copie el resultado completo al documento Word, sección **"Bloque 2: Guía Técnica Estructurada"**.
+6. Copie el resultado completo al documento Word
 
 ---
 
@@ -373,8 +350,6 @@ Lenguaje directo y operativo.
 
 3. Copie ambas versiones al documento Word, debajo de la guía completa.
 
-4. **Reflexión (1 minuto):** En el documento Word, responda: *¿En qué situación real de su trabajo usaría cada una de las tres versiones (completa, gerencial, tarjeta de bolsillo)?*
-
 ---
 
 #### Paso 8 — Solicitar Ramas Condicionales para Variantes del Procedimiento
@@ -386,23 +361,18 @@ Lenguaje directo y operativo.
 1. En la **misma conversación**, envíe:
 
 ```text
-Identifica los 3 pasos de la guía donde el procedimiento podría variar 
-según el sistema operativo o la versión del software. Para cada uno, 
-agrega una rama condicional con el formato:
+Identifica los 3 pasos donde el procedimiento varía según el modelo del equipo / turno de trabajo / nivel de experiencia del técnico. Para cada uno, agrega una rama condicional con el formato:
 
 SI [condición A] → [instrucción específica para A]
 SI [condición B] → [instrucción específica para B]
 
 Ejemplo de formato:
-Paso X: Instalar gestor de paquetes
-  SI Ubuntu 22.04 → sudo apt install [paquete] -y
-  SI RHEL 9 / CentOS → sudo dnf install [paquete] -y
-  SI Windows Server → [instrucción equivalente en PowerShell]
+Paso X: Asignar turno de trabajo
+  SI [Turno de trabajo es Diurno (Turno A)] → Realizar limpieza profunda de filtros, calibración de sensores ópticos y    lubricación de chumceras principales.
+ SI [Turno de trabajo es Nocturno (Turno C)] → Realizar únicamente inspección visual rápida, limpieza de superficies y rellenado de niveles de aceite para no interrumpir el flujo continuo de producción restringida.
 ```
 
 2. Envíe y copie el resultado al documento Word.
-
-> 💡 **Nota para participantes de áreas no-TI:** Si su tarea no tiene variantes de sistema operativo, adapte la pregunta: *"Identifica los 3 pasos donde el procedimiento varía según el modelo del equipo / turno de trabajo / nivel de experiencia del técnico."*
 
 ---
 
@@ -416,12 +386,7 @@ Paso X: Instalar gestor de paquetes
 
 **Instrucciones:**
 
-1. **Si trajo su propio documento técnico:** Seleccione un fragmento de 800–1200 palabras de un manual, procedimiento o normativa de su empresa. Asegúrese de:
-   - Eliminar nombres reales de personas, clientes o datos confidenciales.
-   - Preferir secciones con procedimientos, normas o especificaciones técnicas.
-   - Copiar el texto a su archivo de Bloc de Notas.
-
-2. **Si no trajo documento propio:** Use el siguiente **Texto de Muestra del Instructor** — Fragmento de procedimiento de trabajos en altura (ficticio, solo para fines educativos):
+1. Use el siguiente fragmento de procedimiento de trabajos en altura (ficticio, solo para fines educativos):
 
 ```text
 PROCEDIMIENTO OPERATIVO ESTÁNDAR — POE-SEG-017
@@ -526,7 +491,7 @@ el sistema de gestión de seguridad. Las no conformidades detectadas durante
 auditorías deben cerrarse en un plazo máximo de 30 días hábiles.
 ```
 
-3. Confirme que el texto está en su archivo de Bloc de Notas, listo para ser copiado.
+2. Confirme que el texto está en su archivo de Bloc de Notas, listo para ser copiado.
 
 ---
 
@@ -587,7 +552,7 @@ Fuente:
 
 5. Espere la respuesta completa (puede tomar 30–45 segundos por la extensión).
 
-6. Copie el resultado al documento Word, sección **"Bloque 3: Extracción de Puntos Clave"**.
+6. Copie el resultado al documento Word.
 
 ---
 
@@ -628,44 +593,7 @@ C) Una recomendación de cuándo es NECESARIO leer el documento completo
 
 ---
 
-## 7. Limpieza del Entorno
-
-Al finalizar la práctica, realice las siguientes acciones:
-
-**1. Guardar y organizar archivos:**
-```
-1. Confirmar que los siguientes archivos están guardados:
-   - Lab03_Prompts_[TuNombre].txt (Bloc de Notas)
-   - Lab03_Resultados_[TuNombre].docx (Word)
-   - Lab03_Biblioteca_Prompts_[TuNombre].docx (Word)
-
-2. Crear una carpeta en Documentos llamada: "Curso_Copilot_Labs"
-3. Mover los tres archivos a esa carpeta
-```
-
-**2. Gestionar el historial de Copilot:**
-```
-1. En Copilot, revisar si existe opción de limpiar historial de conversaciones
-   (depende de la versión y configuración corporativa)
-2. Si trabaja en equipo compartido, cerrar sesión de Copilot:
-   - Clic en el ícono de perfil (esquina superior derecha)
-   - Seleccionar "Cerrar sesión"
-3. Cerrar las pestañas del navegador usadas durante la práctica
-```
-
-**3. Verificar que no quedaron datos sensibles:**
-```
-1. Revisar el archivo Lab03_Prompts_[TuNombre].txt
-2. Confirmar que no contiene nombres reales de clientes, empleados o 
-   información financiera confidencial
-3. Si se identifican datos sensibles, eliminarlos del archivo
-```
-
-> 💡 **Para llevar:** Los archivos `Lab03_Resultados` y `Lab03_Biblioteca_Prompts` son herramientas de trabajo real que puede usar inmediatamente después del curso. La biblioteca de prompts, en particular, crecerá con cada práctica y se convertirá en su referencia personal de productividad con IA.
-
----
-
-## 8. Resumen
+## 7. Resumen
 
 ### Puntos Clave de la Práctica
 
@@ -699,7 +627,10 @@ En esta práctica aplicó el patrón **CTF (Contexto, Tarea, Formato)** en tres 
 | Priorización MoSCoW (ProductPlan) | https://www.productplan.com/glossary/moscow-prioritization/ | Referencia del marco MoSCoW |
 | Resumen de documentos con Copilot en Word | https://support.microsoft.com/es-es/office/introducción-a-microsoft-copilot-en-word-91d5b19a-8e61-4c9a-8427-474ce6a579a9 | Aplicación en Microsoft Word |
 
-**Resultado Esperado:** 
+---
+
+### Resultado Esperado
+
 - Dominio de Marcos de Priorización: El participante obtiene de Copilot una matriz estructurada (MoSCoW ) con justificaciones claras y un plan de acción de 90 minutos para ejecutar sus tareas operativas prioritarias.
 
 - Ingeniería de Procedimientos Técnicos: Generación de guías técnicas paso a paso enriquecidas con la lógica Qué-Cómo-Por qué, puntos de control (checkpoints), análisis de riesgos y ramificaciones condicionales.
