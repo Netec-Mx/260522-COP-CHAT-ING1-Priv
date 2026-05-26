@@ -7,7 +7,7 @@
 | **Duración**     | 90 minutos                                   |
 | **Complejidad**  | Fácil                                        |
 | **Nivel Bloom**  | Crear                                        |
-| **Modalidad**    | Individual / Guiada por instructor           |
+| **Modalidad**    | Individual                                   |
 | **Versión**      | 1.0                                          |
 
 ---
@@ -513,42 +513,6 @@ Respuesta de Copilot:
 ¿Podría usar esta respuesta (adaptada) en mi trabajo real? SÍ / NO
 ¿Qué cambiaría?
 ```
----
-
-## Limpieza del Entorno
-
-Al finalizar la práctica, realice los siguientes pasos de cierre:
-
-1. **Guardar el archivo de trabajo:**
-   ```
-   1. En el Bloc de Notas, presione Ctrl+S para guardar Lab01_MisPrompts.txt.
-   2. Verifique que el archivo está guardado en su ubicación (Escritorio o Documentos/Lab01).
-   3. Confirme que el archivo tiene contenido de todos los pasos (1 al 5).
-   ```
-
-2. **Exportar respuestas favoritas a Word (opcional pero recomendado):**
-   ```
-   1. Abra Microsoft Word.
-   2. Cree un nuevo documento en blanco.
-   3. Copie y pegue los 2 o 3 mejores prompts y sus respuestas desde el archivo de notas.
-   4. Guarde como: Lab01_MejoresPrompts.docx
-   5. Este archivo le servirá como referencia personal para las prácticas siguientes.
-   ```
-
-3. **Cerrar conversaciones de Copilot:**
-   ```
-   1. En Copilot, haga clic en "Nueva conversación" para limpiar el historial activo.
-   2. No es necesario eliminar el historial de conversaciones anteriores,
-      pero puede hacerlo desde la configuración si lo prefiere por privacidad.
-   ```
-
-4. **Nota sobre datos ingresados:**
-   ```
-   Recuerde: Todos los datos ingresados en Copilot durante esta práctica
-   eran ficticios. Si por error ingresó algún dato real de su organización,
-   notifique a su instructor y evite repetirlo en prácticas futuras.
-   ```
-
 ---
 
 ## Resumen
