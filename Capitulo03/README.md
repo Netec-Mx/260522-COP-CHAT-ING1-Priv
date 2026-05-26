@@ -589,36 +589,6 @@ Fuente:
 
 6. Copie el resultado al documento Word, sección **"Bloque 3: Extracción de Puntos Clave"**.
 
-**Resultado Esperado (ejemplo parcial para el POE-SEG-017):**
-
-**PRODUCTO 1 — Resumen ejecutivo:**
-> *El POE-SEG-017 establece los requisitos mínimos de seguridad para trabajos realizados a 1.8 metros o más de altura en instalaciones de la empresa, aplicando tanto a personal propio como a contratistas. Define responsabilidades para supervisores, trabajadores y vigías, y exige la emisión de un Permiso de Trabajo en Altura antes de cada actividad. Los requisitos previos incluyen inspección de EPI, verificación de puntos de anclaje, delimitación de zona de exclusión y confirmación de capacitación vigente. El incumplimiento puede resultar en accidentes graves o fatales. Los registros deben conservarse por mínimo tres años. (Secciones 1–7)*
-
-**PRODUCTO 2 — Riesgos críticos:**
-| Riesgo | Consecuencia | Mitigación en el documento |
-|--------|-------------|---------------------------|
-| Uso de EPI dañado | Falla del sistema de protección en caída | Inspección visual y funcional obligatoria antes de cada uso (Sección 5) |
-| Síndrome de suspensión | Pérdida de conciencia en 3–30 min | Rescate inmediato, no permitir descenso autónomo (Sección 6) |
-| ...| ... | ... |
-
-**PRODUCTO 4 — Checklist de inspección previa:**
-```
-[ ] Emitir y firmar Permiso de Trabajo en Altura (Sección 4a)
-[ ] Inspeccionar arnés: correas, costuras y herrajes (Sección 5.1)
-[ ] Verificar punto de anclaje certificado ≥ 2,270 kg (Sección 4c)
-[ ] Delimitar zona de exclusión (Sección 4d)
-[ ] Verificar condiciones climáticas (Sección 4e)
-...
-```
-
-**Verificación:**
-- [ ] Los 5 productos están presentes y claramente separados.
-- [ ] El resumen ejecutivo tiene entre 120 y 150 palabras.
-- [ ] Las tablas de riesgos y glosario tienen las columnas solicitadas.
-- [ ] Los ítems del checklist citan la sección del documento.
-- [ ] Se identificaron y marcaron supuestos no confirmados (si los hay).
-- [ ] El resultado fue copiado al documento Word.
-
 ---
 
 #### Paso 11 — Generar Versiones Adicionales con Prompts de Seguimiento
@@ -646,9 +616,7 @@ C) Una recomendación de cuándo es NECESARIO leer el documento completo
 
 2. Envíe y espere la respuesta.
 
-3. Copie el resultado al documento Word.
-
-**Resultado Esperado:**
+3. Copie el resultado al documento Word, el cual debe ser similar a este:
 
 **Matriz RACI (ejemplo parcial):**
 | Actividad | Supervisor | Trabajador | Vigía | Dpto. Seguridad |
@@ -658,178 +626,9 @@ C) Una recomendación de cuándo es NECESARIO leer el documento completo
 | Delimitar zona exclusión | R | C | R | I |
 | Rescate en emergencia | A | C | R | I |
 
-**Vacíos de información:**
-> *El documento no especifica el proceso para solicitar o renovar la certificación de puntos de anclaje, ni indica quién es responsable de adquirir o reemplazar el EPI cuando se retira del servicio. Tampoco detalla el procedimiento de capacitación ni los criterios para certificar al vigía de seguridad. ⚠️ Supuesto no confirmado: se asume que existe un procedimiento separado para rescate en altura.*
-
-**Verificación:**
-- [ ] La matriz RACI tiene al menos 4 actividades y los roles del documento.
-- [ ] El párrafo de vacíos tiene máximo 80 palabras.
-- [ ] La recomendación de lectura completa vs. resumen está presente.
-
 ---
 
-#### Paso 12 — Reflexión Crítica sobre Confiabilidad de los Resúmenes de IA
-
-**Objetivo:** Desarrollar criterio crítico para saber cuándo confiar en el resumen de IA y cuándo es necesario leer el documento completo.
-
-**Instrucciones:**
-
-1. Revise la respuesta original de Copilot del Paso 10 y compare el **PRODUCTO 1 (Resumen ejecutivo)** con el texto fuente original.
-
-2. En su documento Word, responda las siguientes preguntas de análisis crítico (2–3 oraciones por pregunta):
-
-   **Pregunta 1:** ¿Omitió Copilot algún dato importante del texto fuente en el resumen ejecutivo?
-
-   **Pregunta 2:** ¿Alguna afirmación del resumen o del glosario parece imprecisa o diferente a lo que dice el texto original?
-
-   **Pregunta 3:** ¿Marcó Copilot correctamente los supuestos no confirmados? ¿Identificó algún supuesto que usted no habría notado?
-
-   **Pregunta 4:** ¿En qué situaciones de su trabajo real sería suficiente usar el resumen generado por IA? ¿En cuáles sería obligatorio leer el documento completo?
-
-3. Comparta una de sus respuestas con el grupo (el instructor facilitará una discusión de 3 minutos).
-
-> ⚠️ **Recordatorio crítico:** Los documentos generados por IA —especialmente listas de seguridad, checklists de inspección y procedimientos de emergencia— **DEBEN ser revisados y validados por expertos humanos** antes de su implementación oficial. La IA es un asistente de productividad, no un sustituto del juicio profesional ni de la normativa vigente.
-
-**Resultado Esperado:** Análisis crítico documentado con respuestas a las 4 preguntas, identificando al menos una omisión o imprecisión en el resumen generado por Copilot.
-
-**Verificación:**
-- [ ] Las 4 preguntas tienen respuesta documentada en Word.
-- [ ] Se identificó al menos una limitación o imprecisión en el resultado de Copilot.
-- [ ] El participante puede explicar en qué contextos el resumen de IA es suficiente y en cuáles no.
-
----
-
-### CIERRE DE LA PRÁCTICA (10 minutos)
-
----
-
-#### Paso 13 — Consolidación de la Biblioteca de Prompts
-
-**Objetivo:** Crear una biblioteca personal de prompts reutilizables basada en el trabajo de esta práctica.
-
-**Instrucciones:**
-
-1. Abra un nuevo documento Word y guárdelo como: `Lab03_Biblioteca_Prompts_[TuNombre].docx`
-
-2. Cree una tabla con la siguiente estructura y complete al menos **6 entradas** usando los prompts que usó y refinó durante esta práctica:
-
-```
-| # | Nombre del Prompt | Caso de Uso | Elementos CTF Clave | Resultado Obtenido | Calificación (1-5) |
-```
-
-Ejemplo de entrada:
-| # | Nombre | Caso de Uso | Elementos CTF Clave | Resultado | Calificación |
-|---|--------|-------------|--------------------|-----------| -------------|
-| 1 | Priorización MoSCoW + Puntaje | Ordenar pendientes semanales con criterios ponderados | Rol: Coordinador TI; Pesos: 40/30/20/10; Formato: tabla + plan 90 min | Tabla ordenada con Top 3 y bloques de tiempo | 4/5 |
-| 2 | Eisenhower con seguimiento | Clasificar tareas por urgencia/importancia | Marco: 4 cuadrantes; Justificación por ítem; Comparación con MoSCoW | Cuadrantes claros; comparación útil | 5/5 |
-
-3. Para cada prompt con calificación menor a 4, escriba en una columna adicional: *"Mejora propuesta"*.
-
-4. Guarde el archivo. Esta biblioteca será su referencia para las prácticas futuras.
-
-5. **Reflexión final (escrita en el documento Word de resultados):**
-   Responda en 3–5 oraciones: *¿Cuál de los tres bloques (priorización, estructuración técnica, extracción de manuales) le resultó más valioso para su trabajo actual? ¿Qué ajuste haría al patrón CTF para adaptarlo mejor a su contexto específico?*
-
-**Resultado Esperado:** Documento `Lab03_Biblioteca_Prompts_[TuNombre].docx` con mínimo 6 prompts catalogados, calificados y con mejoras propuestas donde corresponda.
-
-**Verificación:**
-- [ ] La biblioteca tiene al menos 6 entradas.
-- [ ] Cada entrada tiene los 5 campos completados.
-- [ ] Los prompts con calificación < 4 tienen una mejora propuesta.
-- [ ] La reflexión final está escrita en el documento de resultados.
-
----
-
-## 7. Validación y Pruebas
-
-Al finalizar la práctica completa, verifique que cumple con todos los criterios de la siguiente lista:
-
-### Lista de Verificación Final
-
-**Bloque 1 — Priorización:**
-- [ ] Generó tabla MoSCoW con puntaje ponderado (40/30/20/10) y justificaciones.
-- [ ] Generó clasificación Eisenhower con los 4 cuadrantes.
-- [ ] Comparó ambos marcos y documentó su preferencia con justificación.
-- [ ] Generó mini-fichas de seguimiento para ítems del Cuadrante 1.
-
-**Bloque 2 — Estructuración Técnica:**
-- [ ] Generó guía con las 6 secciones: pre-requisitos, pasos, checkpoints, riesgos, criterios de aceptación, estimación de esfuerzo.
-- [ ] La tabla de riesgos tiene al menos 3 entradas con probabilidad, impacto y mitigación.
-- [ ] El checklist Go/No-Go tiene al menos 4 ítems verificables.
-- [ ] Generó versión para gerencia (≤150 palabras) y tarjeta de bolsillo (≤20 ítems).
-- [ ] Generó ramas condicionales para al menos 3 variantes del procedimiento.
-
-**Bloque 3 — Extracción de Manuales:**
-- [ ] Generó los 5 productos: resumen ejecutivo, riesgos, glosario, checklist, preguntas.
-- [ ] El resumen ejecutivo tiene entre 120 y 150 palabras.
-- [ ] Los supuestos no confirmados están marcados con ⚠️.
-- [ ] Generó matriz RACI y párrafo de vacíos de información.
-- [ ] Completó el análisis crítico de confiabilidad con las 4 preguntas.
-
-**Documentación:**
-- [ ] `Lab03_Resultados_[TuNombre].docx` contiene resultados de los 3 bloques.
-- [ ] `Lab03_Biblioteca_Prompts_[TuNombre].docx` contiene mínimo 6 prompts catalogados.
-- [ ] Los archivos están guardados en su equipo local.
-
-### Prueba de Calidad del Prompting
-
-Para validar que dominó el patrón CTF, responda mentalmente (o por escrito) estas tres preguntas para cualquier prompt de esta práctica:
-
-1. **¿El Contexto es suficiente?** → ¿Definí mi rol, el sistema/dominio y la audiencia del resultado?
-2. **¿La Tarea es específica?** → ¿Pedí una acción concreta con criterios medibles (pesos, longitud, número de ítems)?
-3. **¿El Formato es preciso?** → ¿Especifiqué tabla/viñetas/checklist, límite de palabras y campos requeridos?
-
-Si puede responder "sí" a las tres, el prompt cumple el estándar CTF de esta práctica.
-
----
-
-## 8. Solución de Problemas
-
-### Problema 1: Copilot genera una respuesta incompleta o corta que no incluye todas las secciones solicitadas
-
-**Síntoma:** La respuesta de Copilot se corta antes de completar todas las secciones pedidas (por ejemplo, genera el resumen y los riesgos pero no el glosario ni el checklist), o algunas secciones tienen mucho menos contenido del solicitado.
-
-**Causa probable:** El prompt es demasiado largo o solicita demasiados productos en una sola interacción. Los modelos de lenguaje tienen límites de longitud de respuesta por interacción. También puede ocurrir cuando el texto fuente pegado es muy extenso y consume gran parte del contexto disponible.
-
-**Solución:**
-1. Divida el prompt en dos o tres interacciones separadas dentro de la misma conversación. Por ejemplo:
-   - Primera interacción: Pida solo el resumen ejecutivo y los riesgos.
-   - Segunda interacción: *"Ahora, usando el mismo documento, genera el glosario y el checklist."*
-   - Tercera interacción: *"Finalmente, genera las 5 preguntas de comprensión."*
-2. Si el texto fuente es muy extenso, redúzcalo a las secciones más relevantes (500–700 palabras) antes de pegarlo.
-3. Si la respuesta se cortó a la mitad, escriba simplemente: *"Continúa desde donde te quedaste"* en el mismo chat.
-4. Verifique que no hay caracteres especiales o formato raro en el texto fuente que pueda confundir al modelo.
-
----
-
-### Problema 2: Los resultados de Copilot son genéricos y no reflejan el contexto específico de la industria o área del participante
-
-**Síntoma:** La guía técnica generada usa ejemplos de TI aunque el participante trabaja en manufactura, o el checklist de seguridad no menciona los equipos específicos del área, o los riesgos identificados parecen copiados de un manual genérico sin relación con el contexto real.
-
-**Causa probable:** El **Contexto** del prompt CTF es insuficiente. Copilot no tiene información sobre la industria, el tipo de equipo, las normativas aplicables o las condiciones específicas del entorno de trabajo. Sin ese contexto, el modelo recurre a información genérica de sus datos de entrenamiento.
-
-**Solución:**
-1. Enriquezca el campo **Contexto** del prompt con detalles específicos:
-   - Industria o sector (manufactura automotriz, industria alimentaria, telecomunicaciones, etc.)
-   - Normativas aplicables (ISO 45001, NOM-009-STPS, OSHA 1926, etc.)
-   - Equipos o sistemas específicos (marca, modelo, capacidad)
-   - Condiciones del entorno (temperatura, altura, espacio confinado, etc.)
-   - Nivel de experiencia del equipo
-
-   **Ejemplo mejorado:**
-   ```text
-   Contexto: Soy supervisor de mantenimiento en una planta de manufactura 
-   automotriz con certificación ISO 45001. El procedimiento aplica a 
-   compresores de tornillo rotativo marca Atlas Copco GA-55, operando a 
-   7.5 bar en área de producción con temperatura ambiente de 35–45°C.
-   ```
-
-2. Si aún así el resultado es genérico, agregue al final del prompt: *"Ajusta todas las recomendaciones específicamente para [industria/contexto]. Evita recomendaciones genéricas que no apliquen a este entorno."*
-3. Use prompts de seguimiento para refinar: *"El paso X no aplica para nuestro equipo porque [razón]. Reemplázalo con una alternativa para [contexto específico]."*
-
----
-
-## 9. Limpieza del Entorno
+## 7. Limpieza del Entorno
 
 Al finalizar la práctica, realice las siguientes acciones:
 
@@ -866,7 +665,7 @@ Al finalizar la práctica, realice las siguientes acciones:
 
 ---
 
-## 10. Resumen
+## 8. Resumen
 
 ### Puntos Clave de la Práctica
 
@@ -900,10 +699,14 @@ En esta práctica aplicó el patrón **CTF (Contexto, Tarea, Formato)** en tres 
 | Priorización MoSCoW (ProductPlan) | https://www.productplan.com/glossary/moscow-prioritization/ | Referencia del marco MoSCoW |
 | Resumen de documentos con Copilot en Word | https://support.microsoft.com/es-es/office/introducción-a-microsoft-copilot-en-word-91d5b19a-8e61-4c9a-8427-474ce6a579a9 | Aplicación en Microsoft Word |
 
-### Conexión con el Siguiente Lab
+**Resultado Esperado:** 
+- Dominio de Marcos de Priorización: El participante obtiene de Copilot una matriz estructurada (MoSCoW ) con justificaciones claras y un plan de acción de 90 minutos para ejecutar sus tareas operativas prioritarias.
 
-En el **Lab 04-00-01** aplicará estas mismas técnicas de prompting estructurado para generar documentación profesional estandarizada: reportes ejecutivos, actas de reunión, cronogramas y correos contractuales. Los prompts que construyó en esta práctica servirán como base para los formatos más complejos del siguiente lab.
+- Ingeniería de Procedimientos Técnicos: Generación de guías técnicas paso a paso enriquecidas con la lógica Qué-Cómo-Por qué, puntos de control (checkpoints), análisis de riesgos y ramificaciones condicionales.
+Extracción Controlada de Información: Capacidad de aislar contenido usando delimitadores, restringiendo la longitud de la respuesta y extrayendo simultáneamente resúmenes ejecutivos, tablas de riesgos, glosarios y checklists de inspección basados únicamente en el texto fuente.
 
+- Pensamiento Crítico y Gobierno de Datos: Habilidad para auditar los sesgos o suposiciones de la IA mediante el uso explícito de etiquetas de advertencia antes de aplicar resúmenes o manuales en el entorno real de trabajo.
+  
 ---
 
 *© Material educativo para uso exclusivo en el curso. Los textos de muestra son ficticios y solo tienen propósito pedagógico. Versión 1.0*
